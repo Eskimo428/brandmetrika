@@ -1,30 +1,23 @@
+<?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package ServiceDog
+ */
+
+get_header();
+?>
 
 
-<body>
-
-    <header>
-        <div class="header__panel">
-            <a href="#"><img src="/img/logo (1).svg" alt="" class="logo"></a>
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">Главная</li>
-                    <li class="navigation__item">Услуги</li>
-                    <li class="navigation__item">Сферы</li>
-                    <li class="navigation__item">Методы</li>
-                    <li class="navigation__item">Вакансии</li>
-                    <li class="navigation__item">Контакты</li>
-                </ul>
-            </nav>
-            <a class="header__tel" href="tel:+79217864089">+7(921)786-40-89</a>
-        </div>
-    </header>
-
-    <main>
-
+     <main>
         <div class="main__container">
-
-
-
             <div class="main__content-left">
                 <h1 class="header__main">
                     ИННОВАЦИОННЫЙ <span class="orange">ПОДХОД</span> <br>К МАРКЕТИНГОВЫМ ЗАДАЧАМ
@@ -35,7 +28,7 @@
                 <button class="btn header_btn">Заказать услугу</button>
             </div>
             <div class="main__content-right">
-                <img src="./img/logo (2).svg" alt="">
+                <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/1-1.svg" alt="logo">
             </div>
         </div>
     </main>
@@ -44,14 +37,11 @@
         <div class="research__border">
         </div>
         <section class="research">
-
-
             <h2 class="research__main-header">
                 <span class="orange">
                     НАПРАВЛЕНИЯ
                 </span>ИССЛЕДОВАНИЙ
             </h2>
-
             <ul class="research__list">
                 <li class="research__item">
                     <h3 class="research__header">
@@ -97,7 +87,6 @@
                         Проведение анализа лояльности и удовлетворенности клиентов компании с использованием метрик,
                         таких как NPS (Net Promoter Score), CSI (Customer Satisfaction Index) и других инновационных
                         показателей.
-                        <br>
                         <br>
                         Выполнение исследований с целью определения Целевой аудитории, их потребностей и предпочтений.
                         <br>
@@ -214,7 +203,7 @@
         </section>
 
         <section class="company">
-            <h2 class="company_header">О компании</h2>
+            <h2 class="company_header">О КОМПАНИИ</h2>
             <div class="company__container">
                 <div class="company_left">
                     <p class="company_descr">
@@ -249,7 +238,7 @@
                     </p>
                 </div>
                 <div class="company_right">
-                    <img src="/img/logo (1).svg" alt="" class="company__img">
+                    <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/logo-1.svg" alt="" class="company__img">
                 </div>
             </div>
         </section>
@@ -280,8 +269,6 @@
             </div>
 
         </section>
-
-
 
         <section class="companyFacts">
             <h2 class="companyFacts__header">
@@ -412,50 +399,50 @@
 
             <ul class="business__list">
                 <li class="business__item">
-                    <img src="/img/img-feature.svg" alt="">
+                   <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-0">
                     <span class="business__item-text"> FMCG</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-1">
                     <span class="business__item-text">Туризм</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-2">
                     <span class="business__item-text">Розничная торговля</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-3">
                     <span class="business__item-text">Финансовый сектор</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-4">
                     <span class="business__item-text">Медицина</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-5">
                     <span class="business__item-text">Телеком и IT</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-6">
                     <span class="business__item-text">HoReCa</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-7">
                     <span class="business__item-text">Недвижимость</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-8">
                     <span class="business__item-text">E-commerce</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"><img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-9">
                     <span class="business__item-text">Транспорт</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-10">
                     <span class="business__item-text">Спортивная индустрия</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"><img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-11">
                     <span class="business__item-text">Бьюти-индустрия</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-12">
                     <span class="business__item-text">Электроника и бытовая техника</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
+                <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-13">
                     <span class="business__item-text">Автомобильная промышленность</span>
                 </li>
-                <li class="business__item"> <img src="/img/img-feature.svg" alt="">
-                </li> <span class="business__item-text"> </span>
+                <!-- <li class="business__item"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/img-feature.svg" alt="bussines-14">
+                </li> <span class="business__item-text"> </span> -->
             </ul>
         </section>
 
@@ -466,17 +453,24 @@
 
 
             <div class="trust__slider-container">
-                блок слайдер
+               <section class="splide" aria-label="Splide Basic HTML Example">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/1-1.svg" alt="slide-1"></li>
+			<li class="splide__slide"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/08/logo-1.svg" alt="slide-2"></li>
+			<li class="splide__slide"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/07/1-1.svg" alt="slide-4"></li>
+			<li class="splide__slide"> <img src="https://brandmetrika.ru/wp-content/uploads/2023/07/1-1.svg" alt="slide-5"></li>
+		</ul>
+  </div>
+</section>
             </div>
-
-
 
             <div class="trust__feedback">
                 <ul class="trust__feedback-list">
-                    <li class="trust__feedback-item"><img src="/img/yandex.svg" alt=""></li>
-                    <li class="trust__feedback-item"><img src="/img/2gis.svg" alt=""></li>
-                    <li class="trust__feedback-item"><img src="/img/google.svg" alt=""></li>
-                    <li class="trust__feedback-item"><img src="/img/otzovik.svg" alt=""></li>
+                    <li class="trust__feedback-item"><img class="trust__feedback-img" src="https://brandmetrika.ru/wp-content/uploads/2023/08/yandex.svg" alt=""></li>
+                    <li class="trust__feedback-item"><img class="trust__feedback-img" src="https://brandmetrika.ru/wp-content/uploads/2023/08/2gis.svg" alt=""></li>
+                    <li class="trust__feedback-item"><img class="trust__feedback-img" src="https://brandmetrika.ru/wp-content/uploads/2023/08/google.svg" alt=""></li>
+                    <li class="trust__feedback-item"><img class="trust__feedback-img" src="https://brandmetrika.ru/wp-content/uploads/2023/08/otzovik.svg" alt=""></li>
                 </ul>
             </div>
         </section>
@@ -485,10 +479,7 @@
             <h2 class="contacts__header">
                 КОНТАКТЫ
             </h2>
-
             <div class="contacts__container">
-
-            
             <div class="contacts__left">
                 <p class="contacts__descr">
                     Свяжитесь с нами прямо сейчас, чтобы начать сотрудничество
@@ -503,7 +494,6 @@
                     <a class="contacts__tel" href="tel:+79217864089">+7(921)786-40-89</a>
                     <a class="contacts__mail" href="mailto:info@brandmetrika.ru">info@brandmetrika.ru</a>
                 </div>
-
 
                 <div class="contacts__container-social">
                     <a class="contacts__vk" href="https://www.vk.com">
@@ -524,7 +514,7 @@
             </div>
 
             <div class="contacts__right">
-                <form action="" class="feedback__form">
+               <form action="" class="feedback__form">
                     <input type="text" class="feedback__input" placeholder="Имя">
                     <input type="number" class="feedback__input" placeholder="Телефон">
                     <textarea name="message" class="feedback__textarea" placeholder="Сообщение" id="" cols="30"
@@ -533,8 +523,8 @@
                     
                     <div class="checkbox-wrapper checkbox-wrapper-contacts ">
                        
-                        <input type="checkbox" id="" name="agreement">
-                        <label for="agreement">Я согласен на обработку своих персональных данных</label>
+                        <input type="checkbox" id="form-2" name="form-2">
+                        <label for="form-2">Я согласен на обработку своих персональных данных</label>
                     </div>
                     <button class="btn feedback__btn contacts-btn">Отправить </button>   
                 </form>
@@ -546,6 +536,7 @@
 
 
 
-</body>
 
 
+<?php
+get_footer();
